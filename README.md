@@ -2,9 +2,7 @@
 
 This is a small information reteival project, where we generate 5 sets of users that have different interests in different categories of news, and using GloVe for word embedding, we trained two models (SVM and Random Forest) for classification, the script takes an input of corpus of an article, and determines which users would like the given article after classifying it.
 
-The data processing and the results of the evaluation for both models are in the notebook as well.
-
-The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset?resource=download)
+The data processing and the results of the evaluation for both models are in the notebook as well. The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset?resource=download)
 
 I used Google Colab when making this script (you can use Jupyter but you will have to upload the dataset and glove file to the notebook), so to use it:
 
